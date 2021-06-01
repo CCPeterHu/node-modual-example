@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/CCPeterHu/node-modual-example#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "morgan": "^1.10.0"
   }
 }
