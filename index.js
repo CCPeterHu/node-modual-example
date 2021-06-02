@@ -28,7 +28,7 @@ app.use(bodyPaser.json());
 //==========
 app.use('/dishes', dishRouter);
 app.use('/promotions', promoRouter);
-app.use('leaders', leaderRouter);
+app.use('/leaders', leaderRouter);
 
 
 // apply static pages inside public folder
