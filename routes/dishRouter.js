@@ -3,7 +3,7 @@ const bodyPaser = require('body-parser');
 
 const dishRouter = express.Router();// this will declair dishRouther as express router
 
-dishRouter.use(bodyPaser.json);
+dishRouter.use(bodyPaser.json());
 
 dishRouter.route('/')
 
