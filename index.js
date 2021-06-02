@@ -16,7 +16,7 @@ app.use('/dishes', dishRouter);
 
 
 // app.get('/dishes/:dishId', (req, res, next) => {
-//     res.end('Will send detail.ls of the dish:' + req.params.dishId + ' to you!');
+//     res.end('Will send detaills of the dish:' + req.params.dishId + ' to you!');
 // });
 
 // app.post('/dishes/:dishId', (req, res, next) => {
