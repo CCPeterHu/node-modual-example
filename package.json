@@ -1,0 +1,24 @@
+{
+  "name": "node-mongo",
+  "version": "1.0.0",
+  "description": "Node MongoDB Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCPeterHu/node-modual-example.git"
+  },
+  "author": "Peter Hu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CCPeterHu/node-modual-example/issues"
+  },
+  "homepage": "https://github.com/CCPeterHu/node-modual-example#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "mongodb": "^3.6.9"
+  }
+}
