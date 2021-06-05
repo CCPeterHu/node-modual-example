@@ -188,7 +188,7 @@ dishRouter.route('/:dishId/comments/:commentId')
 
     .post((req, res, next) => {
         res.statusCode = 403;
-        res.end('POST operation not supported on /dishes/' + req.params.dishId + ' /comments' + req.params.commentId);
+        res.end('POST operation not supported on /dishes/' + req.params.dishId + '/comments' + req.params.commentId);
     })
 
     .put((req, res, next) => {
