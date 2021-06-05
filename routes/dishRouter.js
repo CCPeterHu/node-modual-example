@@ -1,12 +1,13 @@
 const express = require('express');
-const bodyPaser = require('body-parser');
+// const bodyPaser = require('body-parser');
 const mongoose = require('mongoose');
 
 const Dishes = require('../models/dishes');
 
 const dishRouter = express.Router();// this will declair dishRouther as express router
 
-dishRouter.use(bodyPaser.json());
+// dishRouter.use(express.urlencoded());
+dishRouter.use(express.json());
 
 //===================
 // dishes/
